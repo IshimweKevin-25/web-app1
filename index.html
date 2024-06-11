@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Website icon" type="png"
+    href="slider-img.png">
+<link  href="https://fonts.googleapis.com/icon?family=Material+
+    Icon|Material+Icons+Outlined|Material+Icons+Round|
+    Material+Icons+Sharp|Material+Icons+Icons+Two+Tone" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com"/>
+    <link rel="stylesheet" href="https://fontsgstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?
+    family=Poppins:wght@100;200;300;400;500;600;700;800;
+    900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Web.css">
+</head>
+<body>
+<div id="navbar">
+  <a href=" https://partnershiponai.org/">Partnership AI</a>
+  <a href=" https://ainowinstitute.org/">AI Now Institute</a>
+  <a href=" https://www.facebook.com/metaai/">Meta AI</a>
+  <a href="https://www.Copilot.com">Copilot</a>
+  <a href="https://www.Gemini.com">Gemini</a>
+  <a  class="active" href= https://openai.com>Open AI</a>
+  <img src="slider-img.png">
+</div>
+
+
+<div class="content">
+  <button class="openbtn" onclick="openNav()">☰ </button>  
+  <div id="mySidepanel" class="sidepanel">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <aside>
+      <div class="toggle">
+          <div class="logo">
+              <img src="slider-img.png">
+          </div>
+          <div class="close" id="close-btn">
+              <span class="material-icons-sharp"></span>
+          </div>                 
+      </div>
+
+      <div class="sidebar">
+          <a href="https://www.Youtube.com"  class="active">
+               <span class="material-icons-sharp">
+                  Youtube
+               </span>
+          </a>
+          <a href="https://www.Facebook.com">
+              <span class="material-icons-sharp">
+                 FaceBook
+              </span>
+              <span class="message-count"><b>+5</b></span>
+         </a>
+     <a href="https://www.Discord.com">
+      <span class="material-icons-sharp">
+         Discord
+      </span>
+      </a>
+      <a href="https://www.Twitter.com">
+          <span class="material-icons-sharp">
+          Twitter(x)
+          </span>
+          <span class="message-count"><b>+10</b></span>
+     </a>
+     <a href="https://www.Github.com">
+      <span class="material-icons-sharp">
+        Github
+      </span>
+     </a>
+     <a href="https://www.Instagram.com">
+      <span class="material-icons-sharp">
+         Instagram
+      </span>
+      <span class="message-count"><b>+8</b></span>
+     </a>
+     <a href="https://www.Google.com">
+      <span class="material-icons-sharp">
+         Log Out
+      </span>
+     </a>
+      </div>
+  </aside> 
+  </div>
+</div>
+<div class="center">
+  <div class="tickets">
+      <div class="tickets-selector">
+          <!-- Header -->
+          <div class="head">
+              <div class="title">WWDC 2025 Tickets</div>
+          </div>
+          <!-- Booking Codes -->
+          <div class="seats">
+              <div class="status">
+                  <div class="item">Available</div>
+                  <div class="item">Booked</div>
+                  <div class="item">Selected</div>
+              </div>
+              <div class="all-seats">
+                  <input type="checkbox" name="tickets" id="s1"/>
+                  <label for="s1" class=" booked"></label>
+              </div>
+          </div>
+          <div class="timings">
+              <div class="dates">
+                  <input type="radio" name="date" id="d1" checked />
+                  <label for="d1" class="dates-item">
+                      <div class="day">Sun</div>
+                      <div class="day">11</div>
+                  </label>
+                  <input type="radio" name="date" id="d1" checked />
+                  <label for="d1" class="dates-item">
+                      <div class="day">Mon</div>
+                      <div class="day">12</div>
+                  </label>
+                  <input type="radio" name="date" id="d1" checked />
+                  <label for="d1" class="dates-item">
+                      <div class="day">Tue</div>
+                      <div class="day">13</div>
+                  </label>
+                  <input type="radio" name="date" id="d1" checked />
+                  <label for="d1" class="dates-item">
+                      <div class="day">Wen</div>
+                      <div class="day">14</div>
+                  </label>
+                  <input type="radio" name="date" id="d1" checked />
+                  <label for="d1" class="dates-item">
+                      <div class="day">Thu</div>
+                      <div class="day">15</div>
+                  </label>
+                  <input type="radio" name="date" id="d1" checked />
+                  <label for="d1" class="dates-item">
+                      <div class="day">Fri</div>
+                      <div class="day">16</div>
+                  </label>
+                  <input type="radio" name="date" id="d1" checked />
+                  <label for="d1" class="dates-item">
+                      <div class="day">Sat</div>
+                      <div class="day">17</div>
+                  </label>
+              </div>
+              <div class="times">
+                  <input type="radio" name="time" id="t1" checked/>
+                  <label for="t1" class="time">6:00</label>
+                  <input type="radio" name="time" id="t2" checked/>
+                  <label for="t2" class="time">8:30</label>
+                  <input type="radio" name="time" id="t3"/>
+                  <label for="t3" class="time">10:00</label>
+                  <input type="radio" name="time" id="t4"/>
+                  <label for="t4" class="time">20:30</label>
+
+              </div>    
+          </div>
+      </div>
+      <div class="price">
+          <div class="total">
+              <span>
+                  <span class="court">0</span> Tickets
+              </span>
+              <span>
+                  <span class="amount">0</span> $
+              </span> 
+          </div>
+          <button type="button" class="open-button" onclick="openForm()">Pay Ticket</button>
+          <div class="form-popup" id="myForm">
+              <form  class="form-container">
+              <h1>Weather Forecast</h1><hr>
+              <h1>Iteganya Gihe</h1>
+                                      
+              <div class="logos">
+                  <div class="logos-slide">
+                      <img src="/assets/cloudy.png">
+                      <img src="/assets/cloudy.png">
+                      <img src="/assets/humidity.png">
+                      <img src="/assets/light-rain.png">
+                      <img src="/assets/cloudy.png">
+                      <img src="/assets/fog.png">
+                      <img src="/assets/humidity.png">
+                      <img src="/assets/light-rain.png">
+                      <img src="/assets/cloudy.png">
+                      <img src="/assets/fog.png">
+                      <img src="/assets/humidity.png">
+                      <img src="/assets/light-rain.png">
+                  </div>
+                  <div class="logos-slide">
+                      <img src="/assets/cloudy.png">
+                      Kigali
+                      <img src="/assets/cloudy.png">
+                      <img src="/assets/humidity.png">
+                      <img src="/assets/light-rain.png">
+                      <img src="/assets/cloudy.png">
+                      <img src="/assets/fog.png">
+                      <img src="/assets/humidity.png">
+                      <img src="/assets/light-rain.png">
+                      <img src="/assets/cloudy.png">
+                      <img src="/assets/fog.png">
+                      <img src="/assets/humidity.png">
+                      <img src="/assets/light-rain.png">
+                  </div>
+              </div>   
+              <div class="icon_Mtn">
+               <img src="/assets/icon_MTN.JPG" ><p>PAY With MTN MOMO</p>
+              </div>
+              <div class="icon_Paypal">
+               <img src="/assets/icon_paypal.gif" ><p> PAY With PayPal</p>
+              </div>
+              <button type="button" class="btn cancel" onclick="closeForm()">Done</button>
+              </form>
+          </div>
+      </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
